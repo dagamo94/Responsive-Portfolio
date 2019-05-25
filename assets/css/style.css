@@ -73,6 +73,7 @@ p{
 }
 
 .container{
+    /* position: relative; */
     width: 960px;
     margin: auto;
     background: #fff;
@@ -196,8 +197,28 @@ footer{
     }
 }
 
-@media screen and (max-width: 640){
+@media screen and (max-width: 640px){
     .menu{
-        
+        position: static;
+        width: 100%;
+    }
+    
+    .title{
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    nav{
+        width: 90%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .pages{
+        /* margin: auto; */
     }
 }

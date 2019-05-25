@@ -176,7 +176,7 @@ footer{
     .container{
         width: 490px;
         float: left;
-        margin: auto;
+        margin-left: 50px;
     }
 
     .menu{
@@ -185,9 +185,19 @@ footer{
 }
 
 @media screen and (max-width: 768px){
+    .container{
+        width: 90%;
+        margin: auto;
+        float: none;
+    }
 
+    .menu{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 640){
-
+    .menu{
+        
+    }
 }

@@ -172,6 +172,22 @@ footer{
 
 /*Responsive CSS section */
 
+@media screen and (max-width: 980px){
+    .container{
+        width: 490px;
+        float: left;
+        margin: auto;
+    }
+
+    .menu{
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 768px){
-    
+
+}
+
+@media screen and (max-width: 640){
+
 }

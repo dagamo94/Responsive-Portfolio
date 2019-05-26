@@ -182,10 +182,14 @@ footer{
 /*Responsive CSS section */
 
 @media screen and (max-width: 980px){
+    body{
+        /* padding-bottom: 200px; */
+    }
     .container{
         width: 490px;
-        float: left;
-        margin-left: 50px;
+        /* float: left; float causes footer to cover the container when scrolling is enabled; not showing the last couple of lines of text */
+        /* margin:auto; */
+        margin-left: 5%; /* Only a margin left as a percentage was needed to achieve the container sticking to the left */
     }
 
     .menu{

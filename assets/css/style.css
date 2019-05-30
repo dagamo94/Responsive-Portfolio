@@ -81,8 +81,8 @@ p{
 
 .container{
     /* position: relative; */
-    /* width: 960px;
-    margin: auto; */
+    width: 960px;
+    margin: auto;
     /* margin-bottom: 300px; */
     background: #fff;
     padding: 30px 20px 20px;

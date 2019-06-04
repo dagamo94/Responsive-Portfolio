@@ -27,6 +27,7 @@ header{
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
     margin-bottom: 20px;
+    z-index: 10;
 }
 
 nav{
